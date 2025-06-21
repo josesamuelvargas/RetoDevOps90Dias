@@ -67,7 +67,7 @@ Una vez realizada la configuración del sistema operativo, se realizó la actual
 | 6 | `echo`   | Muestra un mensaje o el valor de una variable.                              |
 | 7 | `cat`    | Muestra el contenido de un archivo de texto en la terminal.                |
 
-[*]: Detalle de `ls -lah`:  
+**[*]**: Detalle de `ls -lah`:  
 - `-l`: listado largo (permisos, tamaño, propietario, etc.)  
 - `-a`: incluye archivos ocultos (los que comienzan con `.`)  
 - `-h`: muestra tamaños legibles (como `5.2K`, `1M`)
