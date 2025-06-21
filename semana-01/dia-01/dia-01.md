@@ -57,8 +57,6 @@ Una vez realizada la configuración del sistema operativo, se realizó la actual
 
 ### Prueba de comandos básicos
 
-#### Tabla de comandos básicos en Linux
-
 | # | Comando  | Descripción                                                                 |
 |---|----------|------------------------------------------------------------------------------|
 | 1 | `whoami` | Muestra el nombre del usuario actual que está ejecutando la terminal.       |
@@ -79,7 +77,7 @@ Una vez realizada la configuración del sistema operativo, se realizó la actual
 ```bash
 1. mkdir day-01                   # Crea una carpeta nueva llamada 'day-01'
 2. cd day-01                      # Ingresa a la carpeta nueva 'day-01'
-3. echo "Hola DevOps" > hola.txt  # Toma el mensaje mostrado "Hola DevOps" y lo almacena dentro un archivo nuevo con el nombre 'hola.txt'
+3. echo "Hola DevOps" > hola.txt  # Toma el mensaje mostrado "Hola DevOps" y lo almacena en un archivo con el nombre 'hola.txt'
 4. cat hola.txt                   # Muestra el texto contenido dentro del archivo 'hola.txt'
 ```
 
