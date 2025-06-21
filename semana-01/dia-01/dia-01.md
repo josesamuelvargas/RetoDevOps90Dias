@@ -4,7 +4,7 @@
 
 Es una cultura que une dos mundos: desarrolladores y operadores, con el objetivo de trabajar juntos desde un inicio, para crear sistemas más rápidos, estables y eficientes.
 
-**Beneficios clave de DevOps:**
+### Beneficios clave de DevOps:
 
 * 🚀 Entregas más rápidas gracias a la automatización.
 * 🧪 Mejor calidad con pruebas continuas (reducción de bugs).
@@ -12,7 +12,7 @@ Es una cultura que une dos mundos: desarrolladores y operadores, con el objetivo
 * 💡 Más innovación por ciclos cortos de desarrollo (se puede experimentar sin preocupaciones).
 * 🤝 Mejor colaboración entre equipos (se comparten responsabilidades).
 
-**¿Por qué Linux es esencial en DevOps?**
+### ¿Por qué Linux es esencial en DevOps?
 
 Linux es la base de la mayoría de herramientas y servidores en entornos DevOps. Su dominio se debe a que:
 
@@ -22,9 +22,9 @@ Linux es la base de la mayoría de herramientas y servidores en entornos DevOps.
 * Brinda alto nivel de seguridad.
 * Es el entorno natural de los contenedores y la infraestructura como código.
 
-Se debe destacar que todo ingeniero DevOps **debe aprender Linux**, ya que gran parte del trabajo se hace desde la terminal, automatizando procesos, gestionando servidores y desplegando contenedores.
+Se debe destacar que **todo ingeniero DevOps debe aprender Linux**, ya que gran parte del trabajo se hace desde la terminal, automatizando procesos, gestionando servidores y desplegando contenedores.
 
-**Herramientas DevOps**
+### Herramientas DevOps
 
 * **Conocidas (había oido hablar de ellas)**
     * Docker
@@ -36,19 +36,69 @@ Se debe destacar que todo ingeniero DevOps **debe aprender Linux**, ya que gran 
 
 ## 2. 🖥️ Primeros Pasos en Linux
 
-**Herramientas utilizados:**
+### Herramientas utilizados:
 * VirtualBox Ver. 7.1.10 → Software de Virtualización
 * Linux Ubuntu Server 24.04 LTS → Sistema Operativo
 * MobaXterm Ver. 23.6 → Software multiprotocolo para acceso remoto (en este caso SSH)
 
-En virtualBox creé una máquina virtual (MV) con 2 GB de memoria RAM, 2 núcleos de procesamiento y almacenamiento de 25 GB.
+En virtualBox creé una máquina virtual (MV) con 2 GB de memoria RAM, 2 núcleos de procesamiento y almacenamiento de 25 GB e instalé el sistema operativo Linux Ubuntu Server 24.04 LTS.
+
 * Configuración virtualbox
-![virtualbox](/assets/dia-01/virtualbox.png "virtualbox")*
+
+![virtualbox](/assets/dia-01/virtualbox.png "virtualbox")
 
 * Sistema operativo instalador en la MV (comando **uname -a** para obtener el dato en la terminal)
-![uname](/assets/dia-01/uname.png "Ubuntu Server 24.04 LTS")*
+
+![uname](/assets/dia-01/uname.png "Ubuntu Server 24.04 LTS")
+
+Una vez realizada la configuración del sistema operativo, se realizó la actualización de todo el sistema operativo con los comandos **sudo apt-get update** y **sudo apt-get upgrade**.
+
+### Prueba de comandos básicos
+
+# | Comando |                         Descripción                                  |
+  |---------|----------------------------------------------------------------------|
+1 | whoami  | Muestra el nombre del usuario actual que está ejecutando la terminal |
+2 | pwd     | **Print Working Directory** Muestra la ruta absoluta del directorio actual. |
+3 | ls -lah | Lista el contenido del directorio actual, mostrando archivos ocultos y con detalles. **^1** |
+4 | mkdir   | **make directory** Crea un nuevo directorio (carpeta). |
+5 | cd      | **change directory** Cambia de directorio (navegación). |
+6 | echo    | Muestra un mensaje o valor de una variable. |
+7 | cat     | Muestra el contenido de un archivo de texto en la terminal. |
+
+**^1** La función de cada una de las letras:
+* -l: listado largo (permisos, tamaño, propietario, etc.)
+* -a: incluye archivos ocultos (los que comienzan con .)
+* -h: muestra tamaños legibles (como 5.2K, 1M)
+
+### Ejercicio realizado:
+
+```bash
+1. mkdir day-01                   # Crea una carpeta nueva llamada 'day-01'
+2. cd day-01                      # Ingresa a la carpeta nueva 'day-01'
+3. echo "Hola DevOps" > hola.txt  # Toma el mensaje mostrado "Hola DevOps" y lo almacena dentro un archivo nuevo con el nombre 'hola.txt'
+4. cat hola.txt                   # Muestra el texto contenido dentro del archivo 'hola.txt'
+```
+
+![primerospasos](/assets/dia-01/PrimerosPasos.png "Primeros Pasos (comandos básicos)")
+
+## 3. 🎯 Desafío: ¡Linux Detectives!
+
+* ¿Cuánto tiempo lleva encendido tu sistema? (Comando **uptime**)
+
+![uptime](/assets/dia-01/uptime.png "uptime")
+
+* ¿Qué procesos están consumiendo más recursos? (Comando **top**)
+
+![top](/assets/dia-01/top.png "top")
+
+* ¿Cuánta memoria disponible tenés? (Comado **free -h**)
+
+![free](/assets/dia-01/free-h.png "free -h")
 
 
+## Comentarios finales
+
+Este primer acercamiento me ha recordado conocimientos que creía olvidados, ha despertado mi curiosidad por aprender y me entusiasma saber que adquiriré cosas nuevas durante este laboratorio DevOps.
 
 ## Recurso recomendado
 
