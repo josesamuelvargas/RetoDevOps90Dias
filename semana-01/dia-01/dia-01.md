@@ -55,20 +55,22 @@ Una vez realizada la configuración del sistema operativo, se realizó la actual
 
 ### Prueba de comandos básicos
 
-# | Comando |                         Descripción                                  |
-  |---------|----------------------------------------------------------------------|
-1 | whoami  | Muestra el nombre del usuario actual que está ejecutando la terminal |
-2 | pwd     | **Print Working Directory** Muestra la ruta absoluta del directorio actual. |
-3 | ls -lah | Lista el contenido del directorio actual, mostrando archivos ocultos y con detalles. **^1** |
-4 | mkdir   | **make directory** Crea un nuevo directorio (carpeta). |
-5 | cd      | **change directory** Cambia de directorio (navegación). |
-6 | echo    | Muestra un mensaje o valor de una variable. |
-7 | cat     | Muestra el contenido de un archivo de texto en la terminal. |
+#### Tabla de comandos básicos en Linux
 
-**^1** La función de cada una de las letras:
-* -l: listado largo (permisos, tamaño, propietario, etc.)
-* -a: incluye archivos ocultos (los que comienzan con .)
-* -h: muestra tamaños legibles (como 5.2K, 1M)
+| # | Comando  | Descripción                                                                 |
+|---|----------|------------------------------------------------------------------------------|
+| 1 | `whoami` | Muestra el nombre del usuario actual que está ejecutando la terminal.       |
+| 2 | `pwd`    | **Print Working Directory**. Muestra la ruta absoluta del directorio actual. |
+| 3 | `ls -lah`| Lista el contenido del directorio actual, incluyendo archivos ocultos y detalles. **[*]** |
+| 4 | `mkdir`  | **Make Directory**. Crea un nuevo directorio (carpeta).                     |
+| 5 | `cd`     | **Change Directory**. Cambia de directorio (navegación).                    |
+| 6 | `echo`   | Muestra un mensaje o el valor de una variable.                              |
+| 7 | `cat`    | Muestra el contenido de un archivo de texto en la terminal.                |
+
+[*]: Detalle de `ls -lah`:  
+- `-l`: listado largo (permisos, tamaño, propietario, etc.)  
+- `-a`: incluye archivos ocultos (los que comienzan con `.`)  
+- `-h`: muestra tamaños legibles (como `5.2K`, `1M`)
 
 ### Ejercicio realizado:
 
