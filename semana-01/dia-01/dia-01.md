@@ -34,6 +34,8 @@ Se debe destacar que **todo ingeniero DevOps debe aprender Linux**, ya que gran 
     * Kubernetes
     * Ansible
 
+---
+
 ## 2. 🖥️ Primeros Pasos en Linux
 
 ### Herramientas utilizados:
@@ -83,6 +85,8 @@ Una vez realizada la configuración del sistema operativo, se realizó la actual
 
 ![primerospasos](/assets/dia-01/PrimerosPasos.png "Primeros Pasos (comandos básicos)")
 
+---
+
 ## 3. 🎯 Desafío: ¡Linux Detectives!
 
 * ¿Cuánto tiempo lleva encendido tu sistema? (Comando **uptime**)
@@ -97,10 +101,13 @@ Una vez realizada la configuración del sistema operativo, se realizó la actual
 
 ![free](/assets/dia-01/free-h.png "free -h")
 
+--- 
 
 ## Comentarios finales
 
 Este primer acercamiento me ha recordado conocimientos que creía olvidados, ha despertado mi curiosidad por aprender y me entusiasma saber que adquiriré cosas nuevas durante este laboratorio DevOps.
+
+---
 
 ## Recurso recomendado
 
